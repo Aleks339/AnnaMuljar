@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/Aleks339/AnnaMuljar#readme",
   "devDependencies": {
+    "browser-sync": "^2.18.8",
     "gulp": "^3.9.1",
     "gulp-less": "^3.3.0",
     "gulp-sass": "^3.1.0"

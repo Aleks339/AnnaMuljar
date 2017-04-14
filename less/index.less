@@ -1,7 +1,32 @@
-@LightSkyBlue = LightSkyBlue;
-@AlluraRegular = url('fonts/Allura-Regular.ttf');
+@lightskyblue: #87CEFA;
+@cursive: cursive;
+@antiquewhite: antiquewhite;
+@bold: bold;
+@bolder: bolder;
+@green: green;
+@center: center;
 
-.jumborton {
-    background-color: @LightSkyBlue;
-    font-family: @AlluraRegular;
+
+body {
+    background-color: @antiquewhite;
+    .jumbotron {
+        background-color: @lightskyblue;
+        font-family: @cursive;
+        font-size: 66;
+        text-align: @center;
+        margin-top: -10px;
+    }
+    span {
+        font-size: 45;
+        font-weight:@bold;
+        color: @green;
+    }
+    h1{
+        font-weight: @bolder;
+        color: @green;
+        text-align: @center;
+    }
+    p{
+        font-size: 25;
+    }
 }
