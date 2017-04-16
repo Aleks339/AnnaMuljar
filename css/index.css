@@ -1,0 +1,23 @@
+body {
+  background-color: antiquewhite;
+}
+body .jumbotron {
+  background-color: #87CEFA;
+  font-family: cursive;
+  font-size: 66;
+  text-align: center;
+  margin-top: -10px;
+}
+body span {
+  font-size: 45;
+  font-weight: bold;
+  color: green;
+}
+body h1 {
+  font-weight: bolder;
+  color: green;
+  text-align: center;
+}
+body p {
+  font-size: 25;
+}
