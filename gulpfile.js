@@ -3,7 +3,7 @@ var less = require('gulp-less');
 var browserSync = require('browser-sync').create();
 
 gulp.task('less', function() {
-    return gulp.src('less/index.less')
+    return gulp.src('less/**.less')
         .pipe(less())
         .pipe(gulp.dest('css'))
         .pipe(browserSync.reload({

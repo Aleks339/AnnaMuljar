@@ -9,24 +9,39 @@
 
 body {
     background-color: @antiquewhite;
+    .back-paint(@color){
+        background-color: @color;
+    }
+    .paint(@color){
+        color: @color;
+    }
+    .font-size(normal1; @size){
+        font-size:@size;
+    }
+    .font-size(bigger; @size){
+        font-size:@size*1.8;
+    }
+    .font-size(biggest; @size){
+        font-size:@size*2.6;
+    }
     .jumbotron {
-        background-color: @lightskyblue;
+        .back-paint(@lightskyblue);
         font-family: @cursive;
-        font-size: 66;
+        .font-size(biggest; 20px);
         text-align: @center;
         margin-top: -10px;
     }
     span {
-        font-size: 45;
+        .font-size(bigger; 20px);;
         font-weight:@bold;
-        color: @green;
+        .paint(@green);
     }
     h1{
         font-weight: @bolder;
-        color: @green;
+        .paint(@green);
         text-align: @center;
     }
     p{
-        font-size: 25;
+        .font-size(normal1; 20px);
     }
 }
